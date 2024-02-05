@@ -1,0 +1,45 @@
+
+  #mainsec {
+    width: 100%;
+    display: flex;
+  }
+  #mainsec:hover{
+    transform: none;
+  }
+  mark {
+    background-color: red;
+  }
+  .sec1 {
+    display: block;
+    gap: 25px;
+    padding: 25px;
+  }
+  .sec1 img {
+    width: 190px;
+    height: 135px;
+    border: 4px double rgb(20, 32, 255);
+    box-shadow: rgb(255, 229, 99) 10px 10px 4px;
+    transition: 2s;
+    transform: rotate(45deg);
+    margin-bottom: 120px;
+  }
+  .sec1 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+    border-style: double;
+    box-shadow: rgb(39, 255, 104) 10px 10px 4px;
+    transform: rotate(0deg);
+    border: 3px dotted blue;
+  }
+  .sec1 img:active {
+    transition: 2s;
+    transform: scale(4);
+    border: 0px;
+    box-shadow: none;
+  }
+  .leftartc{
+display: flex;
+  }
+  #mainsec:active{
+    transform: none;
+  }
